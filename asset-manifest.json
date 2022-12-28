@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/top-memory-card/static/css/main.1a97311c.css",
+    "main.js": "/top-memory-card/static/js/main.09f5a11a.js",
+    "static/media/Airborne_Soldier_sprite.webp": "/top-memory-card/static/media/Airborne_Soldier_sprite.da82b38b05dc120d23c1.webp",
+    "static/media/Anti-Armor_Infantry_sprite.webp": "/top-memory-card/static/media/Anti-Armor_Infantry_sprite.074b24845deeb0ec3d7f.webp",
+    "static/media/Famiglia_Intimidator_sprite.webp": "/top-memory-card/static/media/Famiglia_Intimidator_sprite.88737352143347d72678.webp",
+    "static/media/Arts_Master_A2_sprite.webp": "/top-memory-card/static/media/Arts_Master_A2_sprite.5010d9f56879a72991c3.webp",
+    "static/media/Breaker_sprite.webp": "/top-memory-card/static/media/Breaker_sprite.fc8a69b1228f163eeb3d.webp",
+    "static/media/Armorless_Union_Assassin_Leader_sprite.webp": "/top-memory-card/static/media/Armorless_Union_Assassin_Leader_sprite.875a697768bff0fc4223.webp",
+    "static/media/Elite_Marksman_sprite.webp": "/top-memory-card/static/media/Elite_Marksman_sprite.d91f402cf2ff666e7325.webp",
+    "static/media/Caster_Leader_sprite.webp": "/top-memory-card/static/media/Caster_Leader_sprite.22001c54fe887e769581.webp",
+    "static/media/Holographic_Mirage_sprite.webp": "/top-memory-card/static/media/Holographic_Mirage_sprite.78f92fc340047f9f294f.webp",
+    "static/media/Bitey_sprite.webp": "/top-memory-card/static/media/Bitey_sprite.72c9c18b8aa7a9f1ae2d.webp",
+    "index.html": "/top-memory-card/index.html",
+    "main.1a97311c.css.map": "/top-memory-card/static/css/main.1a97311c.css.map",
+    "main.09f5a11a.js.map": "/top-memory-card/static/js/main.09f5a11a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a97311c.css",
+    "static/js/main.09f5a11a.js"
+  ]
+}
