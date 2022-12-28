@@ -1,0 +1,118 @@
+:root {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: clamp(300px, 100%, 1200px);
+  --main-bg-color: #d4d4d4;
+  --main-text-color: #474747;
+  --hdft-bg-color: #636363;
+  --hdft-text-color: #DADEDF;
+  --form-bg-color: #f0f0f0;
+  --form-text-color: #474747;
+  --preview-bg-color: #dadedf;
+  /* border: 1px solid black;   */
+  box-sizing: border-box;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#instructions {
+  padding: 16px;
+  text-align: center;
+  line-height: 1.25em;
+  width:75%;
+  outline: 4px solid var(--form-bg-color);
+  border-radius: 8px;
+  background-color: var(--preview-bg-color);
+  
+}
+
+#instructions::first-line {
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 200px;
+  height: 225px;
+  outline: 4px solid var(--form-bg-color);
+  border-radius: 8px;
+  background-color: var(--preview-bg-color);
+}
+
+.card:hover {
+  scale: 1.05;
+  background-color: var(--main-bg-color);
+}
+
+.card:active {
+  background-color: var(--hdft-bg-color);
+}
+
+.card>img {
+  aspect-ratio: 1/1;
+  width: 200px;
+  border-radius: 8px;
+}
+
+#cardsgrid{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#scoreboard{
+  display:grid;
+  gap: 8px;
+  padding: 8px;
+  outline: 4px solid var(--form-bg-color);
+  border-radius: 8px;
+  background-color: var(--preview-bg-color);
+  min-width: 140px;
+
+}
+
+#scoreboard > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  white-space: pre-line;
+}
+
+#header {
+  background-color: var(--hdft-bg-color);
+  color: var(--hdft-text-color);
+  text-align: center;
+  padding: 16px;
+}
+
+#main {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 8px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#footer {
+  background-color: var(--hdft-bg-color);
+  color: var(--hdft-text-color);
+  padding: 8px;
+  text-align: center;
+}
