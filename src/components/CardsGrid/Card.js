@@ -8,7 +8,7 @@ const Card = (props) => {
     onClick={props.onClick}
     >
       <img src={props.image} alt=""></img>
-      <div>{`${props.name} ${props.prevClicked}`}</div>
+      <div>{`${props.name}`}</div>
     </div>
   );
 }
